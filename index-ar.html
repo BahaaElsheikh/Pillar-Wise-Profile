@@ -636,7 +636,9 @@ const modal = document.getElementById('teamModal');
       document.getElementById('modalName').textContent = name;
       document.getElementById('modalRole').textContent = role;
       document.getElementById('modalTitle2').textContent = title2;
-      document.getElementById('modalPhone').textContent = phone;
+      document.getElementById('modalPhone').innerHTML = phone ? `<a href="tel:${phone.replace(/[^0-9]/g, '')}">${phone}</a>` : '';
+
+     
       document.getElementById('modalBio').textContent = bio;
 
       // إعداد مسار الـ PDF المتوقع بناء على الـ ID (مثال: cv/member-1.pdf)
