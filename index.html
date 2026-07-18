@@ -1,93 +1,18 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pillar Wise Advisory</title>
-    <link rel="stylesheet" href="style1.css">
-    <!-- خطوط جوجل لتحسين المظهر ودعم اللغتين -->
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Redirecting...</title>
+
+    <script>
+        window.location.replace("index-ar.html");
+    </script>
+
+    <noscript>
+        <meta http-equiv="refresh" content="0; url=index-ar.html">
+    </noscript>
 </head>
+
 <body>
-
-    <!-- الناف بار الثابتة (Fixed Navbar) -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="logo">PILLAR WISE<span>ADVISORY</span></div>
-            
-            <!-- القائمة الافتراضية (بالعربي) -->
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#hero" class="active" data-lang-key="nav-home">الرئيسية</a></li>
-                <li><a href="#about" data-lang-key="nav-about">من نحن</a></li>
-                <li><a href="#services" data-lang-key="nav-services">خدماتنا</a></li>
-                <li><a href="#contact" data-lang-key="nav-contact">اتصل بنا</a></li>
-            </ul>
-
-            <!-- زرار تغيير اللغة الثابت في الناف بار -->
-            <button id="langToggle" class="lang-btn">English</button>
-            
-            <!-- زر الموبايل منيو -->
-            <div class="menu-toggle" id="mobileMenu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
-    </nav>
-
-    <!-- سيكشن الهيرو (الترحيب) -->
-    <section id="hero" class="hero-section">
-        <div class="container">
-            <h1 id="heroTitle">مرحباً بكم في Pillar Wise</h1>
-            <p id="heroDesc">شركة متخصصة في المحاسبة والاستشارات المهنية، تقدم خدمات عالية الجودة في المحاسبة، والضرائب، والمراجعة، والاستشارات، بما يساعد الشركات على إدارة أعمالها بكفاءة وتحقيق النمو بثقة.</p>
-            <a href="#services" class="cta-btn" id="heroCta">اكتشف خدماتنا</a>
-        </div>
-    </section>
-
-    <!-- سيكشن من نحن -->
-    <section id="about" class="about-section">
-        <div class="container">
-            <h2 data-lang-key="about-title">من نحن</h2>
-            <div class="about-content" id="aboutText">
-                <p>Pillar Wise هي شركة متخصصة في المحاسبة والمراجعة، والاستشارات المالية والضريبية تقدم حلولاً مهنية متكاملة تلبي احتياجات الشركات والمؤسسات في مختلف القطاعات، مع الالتزام بأعلى معايير الجودة والاحترافية.</p>
-                <p>يقع مقر الشركة في جمهورية مصر العربية، وتمتد خدماتها لتشمل دعم العملاء الذين يزاولون أعمالهم داخل المملكة العربية السعودية، من خلال تقديم الاستشارات المتخصصة ومساعدتهم على الامتثال للأنظمة واللوائح التنظيمية وإدارة أعمالهم بكفاءة.</p>
-                <p class="extra-arabic">نعتمد على فريق من الخبراء ذوي الكفاءة العالية والخبرة العملية، يجمع بين المعرفة الفنية والفهم العميق لبيئة الأعمال، مما يمكننا من تقديم حلول عملية ومبتكرة مصممة خصيصاً لتلبية احتياجات كل عميل.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- سيكشن الخدمات -->
-    <section id="services" class="services-section">
-        <div class="container">
-            <h2 data-lang-key="services-title">خدماتنا المهنية</h2>
-            <div class="services-grid" id="servicesGrid">
-                <!-- كارت 1 -->
-                <div class="service-card">
-                    <h3 data-lang-key="s1-title">المراجعة والتأكيد</h3>
-                    <p data-lang-key="s1-desc">خدمات مراجعة وتأكيد مستقلة وموثوقة تهدف إلى تعزيز مصداقية التقارير المالية، ودعم الامتثال للمعايير المحاسبية والمتطلبات التنظيمية.</p>
-                </div>
-                <!-- كارت 2 -->
-                <div class="service-card">
-                    <h3 data-lang-key="s2-title">الضرائب والاستشارات</h3>
-                    <p data-lang-key="s2-desc">خدمات ضريبية متخصصة تساعد الشركات والأفراد على الامتثال للأنظمة واللوائح الضريبية، مع تقديم استشارات عملية تسهم في تحسين الكفاءة الضريبية.</p>
-                </div>
-                <!-- كارت 3 -->
-                <div class="service-card">
-                    <h3 data-lang-key="s3-title">التمويل وجذب الاستثمارات</h3>
-                    <p data-lang-key="s3-desc">تقديم حلول تمويلية متكاملة تساعد الشركات على جذب الاستثمارات المناسبة، ودعم خطط التوسع، وتحقيق الاستدامة المالية.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- سيكشن الاتصال (الفوتر) -->
-    <footer id="contact">
-        <div class="container footer-container">
-            <p>© 2026 Pillar Wise Advisory. All Rights Reserved.</p>
-            <p id="footerContact">مصر: شارع عكاشة، ميدان المساحة، الدقي، الجيزة | فرع السعودية: حي الأندلس، جدة</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
