@@ -6,7 +6,8 @@
 :root {
   --color-primary: #003B8F;      /* Dark Blue */
   --color-primary-dark: #002a66; /* Darker shade for hover/gradient */
-  --color-secondary: #4A90E2;    /* Light / Sky Blue */
+ --color-secondary: #4A90E2;   /* Light / Sky Blue */
+ --color-secondary: #c79a15;   /* Light / Sky Blue */
   --color-bg-soft: #F4F7FA;      /* Soft background */
   --color-white: #FFFFFF;
   --color-text: #2A3341;
@@ -124,7 +125,7 @@ section {
 }
 
 .btn-primary {
-  background: var(--color-primary);
+  background: var(--color-secondary);
   color: var(--color-white);
   box-shadow: var(--shadow-md);
 }
@@ -180,7 +181,7 @@ section {
   width: 40px;
   height: 40px;
   border-radius: 10px;
-  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+  background: linear-gradient(135deg, var(--color-secondary), var(--color-secondary));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -192,7 +193,7 @@ section {
 
 .navbar-logo img{
 
-    height:150px;      /* عدلها حسب الحجم اللى يعجبك */
+    height:120px;      /* عدلها حسب الحجم اللى يعجبك */
     width:auto;
 
     display:block;
@@ -251,7 +252,7 @@ body.lang-en .navbar-links a::after {
   gap: 8px;
   padding: 10px 20px;
   border-radius: 50px;
-  background: var(--color-primary);
+  background: var(--color-secondary);
   color: #fff;
   font-weight: 700;
   font-size: 0.9rem;
